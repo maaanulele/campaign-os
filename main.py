@@ -1,3 +1,4 @@
+import os
 import json
 import uuid
 from pathlib import Path
@@ -1827,4 +1828,10 @@ def main(page: ft.Page):
     render()
 
 
-ft.app(target=main)
+ft.app(
+    target=main,
+    view=ft.AppView.WEB_BROWSER,
+    host="0.0.0.0",
+    port=int(os.getenv("PORT", 8550)),
+    assets_dir="assets",
+)
