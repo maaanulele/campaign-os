@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: campaign-os
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: flet run main.py --web --host 0.0.0.0 --port $PORT
