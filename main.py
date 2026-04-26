@@ -14,7 +14,6 @@ DATA_FILE = BASE_DIR / "campaign_os_data.json"
 
 def main(page: ft.Page):
     page.title = "Campaign OS"
-    page.web_app_title = "Campaign OS"
     page.favicon = "icon2.png"
     page.theme_mode = ft.ThemeMode.DARK
     page.bgcolor = "#0b1020"
@@ -1835,5 +1834,5 @@ ft.app(
     view=ft.AppView.WEB_BROWSER,
     host="0.0.0.0",
     port=int(os.getenv("PORT", 8550)),
-    assets_dir="assets"
+    assets_dir="assets",
 )
