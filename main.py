@@ -1835,5 +1835,5 @@ ft.app(
     view=ft.AppView.WEB_BROWSER,
     host="0.0.0.0",
     port=int(os.getenv("PORT", 8550)),
-    assets_dir="assets",
+    assets_dir="assets"
 )
