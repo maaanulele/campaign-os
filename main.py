@@ -14,6 +14,7 @@ DATA_FILE = BASE_DIR / "campaign_os_data.json"
 
 def main(page: ft.Page):
     page.title = "Campaign OS"
+    page.web_app_title = "Campaign OS"
     page.favicon = "icon2.png"
     page.theme_mode = ft.ThemeMode.DARK
     page.bgcolor = "#0b1020"
