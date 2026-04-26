@@ -1,6 +1,6 @@
 {
   "name": "Campaign OS",
-  "short_name": "CampaignOS",
+  "short_name": "Campaign OS",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#0b1020",
