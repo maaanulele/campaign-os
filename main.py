@@ -1836,5 +1836,5 @@ ft.app(
     host="0.0.0.0",
     port=int(os.getenv("PORT", 8550)),
     assets_dir="assets",
-    name="Campaign OS"
+    name="Campaign OS",
 )
